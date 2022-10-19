@@ -1,1 +1,1 @@
-Deleted all the unnecessary files
+Added daily-challenge web page and it's respective styles
