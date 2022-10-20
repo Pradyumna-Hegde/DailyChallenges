@@ -1,7 +1,16 @@
+header {
+  margin-bottom: 64px;
+}
+
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
-  margin: 12px;
+  margin: 0;
+}
+
+header > p {
+  /* "header p" and "header > p" - are same */
+  margin-bottom: 36px;
 }
 
 a {
@@ -11,6 +20,7 @@ a {
   border: 1px solid rgb(167, 1, 78);
   border-radius: 4px;
   font-size: 24px;
+  display: inline-block;
 }
 
 a:hover {
@@ -30,4 +40,15 @@ li {
   margin: 32px;
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: rgb(70, 35, 30);
+  font-family: "Oswald", sans-serif;
+}
+
+.daily-goal {
+  margin: 12px;
+  color: rgb(71, 29, 22);
 }
